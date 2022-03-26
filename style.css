@@ -90,6 +90,17 @@ h2{
   font-weight: 500;
 }
 
+h3{
+  font-family: 'Mea Culpa';
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding: 10px;
+  font-weight: 500;
+}
+
 .about{
   background: url(https://i.imgur.com/kqqWW2G.jpeg) no-repeat left;
   overflow: hidden;
@@ -237,7 +248,6 @@ h2{
   #slider-span6:target ~ .image-slider {left: -35%;}
 }
   
-}
 
 @media screen and (max-width:1000px){
   
@@ -251,7 +261,7 @@ h2{
   }
   
   .menu-toggle{
-    disply: block;
+    display: block;
     width: 40px;
     height: 40px;
     margin: 10px;
@@ -301,7 +311,7 @@ h2{
   }
   
   .menu-toggle{
-    disply: block;
+    display: block;
     width: 40px;
     height: 40px;
     margin: 10px;
@@ -450,12 +460,8 @@ input.set{
 #slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(3), #slide3:checked ~ #controls label:nth-child(4) { right:0; display:block; }
 
 #slide2:checked ~ #controls label:nth-child(1), #slide3:checked ~ #controls label:nth-child(2), #slide4:checked ~ #controls label:nth-child(3) { left:0; display:block; }
-
-  
+ 
 }
-  
-
-
 
 .pricing-table{
   display: flex;
@@ -540,3 +546,77 @@ input.set{
     flex: 50%;
   }
 }
+
+.contact{
+  background-color: rgba(242, 194, 219, 0);
+  float: center;
+  border-radius: 4px;
+  padding: 100px 20px 200px 20px;
+  margin: 20px;
+  
+}
+
+.inner-contact{
+  position: absolute;
+  width: 55%;
+  float: center;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: rgb(220, 170, 196);
+  box-shadow: 5px 4px 5px rgba(0,0,0,0.3);
+}
+
+footer{
+  position: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(220, 170, 196);
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: rgba(130, 64, 98, 0.8);
+}
+
