@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Styles By Saoirse</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+    <header>
+        <nav></nav>
+          <a href="#" class="logo">Styled By Saoirse</a>
+      <div class="menu-toggle"></div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Prices</a></li>
+          <li><a href="#">Contact</a></a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ed0b3c3afa.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+          $('.menu-toggle').toggleClass('active')
+          $('nav').toggleClass('active')
+        })
+      })
+    </script>
+
+  <div class="about">
+    <div class="inner-section">
+    <h2>About</h2>
+      <p class="text">
+        Saoirse has a passion for hair styling. She has been working in the industry for 4 years now with a ton of experience in areas such as, hair extensions, coloring, cutting and styling.
+        Saoirse has earned certificates in extensions and coloring and is renouned for her skill and profesionalism.
+        </p>
+      </div>
+    </div>
+
+  <div class="gallery-title">
+    <h2>Gallery</h2>
+  </div>
+    <!--image slider for tablet and desktop view-->
+    <div class="side-container">
+        <span class="slider-span" id="slider-span1"></span>
+        <span class="slider-span" id="slider-span2"></span>
+        <span class="slider-span" id="slider-span3"></span>
+        <span class="slider-span" id="slider-span4"></span>
+        <span class="slider-span" id="slider-span5"></span>
+        <span class="slider-span" id="slider-span6"></span>
+
+      <div class="image-slider">
+        
+        <div class="slides-div" id="slide-1">
+          <img src="https://i.imgur.com/fBYEYXb.png" alt="" class="img" id="img-1">
+          <a href="#slider-span1" class="button" id="button-1"></a>
+      </div>
+        
+        <div class="slides-div" id="slide-2">
+          <img src="https://i.imgur.com/brTXHnI.png" alt="" class="img" id="img-2">
+          <a href="#slider-span2" class="button" id="button-2"></a>
+      </div>
+        
+        <div class="slides-div" id="slide-3">
+          <img src="https://i.imgur.com/KpsKtMx.jpeg" alt="" class="img" id="img-3">
+          <a href="#slider-span3" class="button" id="button-3"></a>
+      </div>
+        
+        <div class="slides-div" id="slide-4">
+          <img src="https://i.imgur.com/nsr11Wr.jpeg" alt="" class="img" id="img-4">
+          <a href="#slider-span4" class="button" id="button-4"></a>
+      </div>
+
+        <div class="slides-div" id="slide-5">
+          <img src="https://i.imgur.com/81CcyML.png" alt="" class="img" id="img-5">
+          <a href="#slider-span5" class="button" id="button-5"></a>
+      </div>
+
+        <div class="slides-div" id="slide-6">
+          <img src="https://i.imgur.com/0tmRxJi.jpeg" alt="" class="img" id="img-6">
+          <a href="#slider-span6" class="button" id="button-6"></a>
+      </div>
+    </div>
+
+      <!--image slider for mobile view-->
+    <div class="slides">
+  <input checked type="radio" name="slider" id="slide1" class="set" />
+  <input type="radio" name="slider" id="slide2" class="set" />
+  <input type="radio" name="slider" id="slide3" class="set" />
+  <input type="radio" name="slider" id="slide4" class="set" />  
+		  
+  <div class="mask">    
+    <div class="overflow">
+      
+      <div class="slide" id="pic1"></div>
+      <div class="slide" id="pic2"></div>
+      <div class="slide" id="pic3"></div>
+      <div class="slide" id="pic4"></div>
+      
+    </div>    
+  </div>
+
+  <div id="controls" onclick="">  
+    <label for="slide1"></label>
+    <label for="slide2"></label>
+    <label for="slide3"></label>
+    <label for="slide4"></label>    
+  </div>
+</div>
+</div>
+
+  <div class="pricing-table">
+    <div class="pricing-card">
+    <p class="pricing-card-header text">Cut</p>
+      <div class="price text"><sup>$</sup>50</div>
+      <ul>
+        <li>add blow-dry +$60</li>
+        <li>add colour +$100</li>
+      </ul>
+      <a href="#" class="order-btn">book Now</a>
+    </div>
+
+    <div class="pricing-card">
+      <p class="pricing-card-header text">blow-dry</p>
+      <div class="price text"><sup>$</sup>60<span></span></div>
+      <ul>
+        <li><strong>10</strong> Websites</li>
+        <li><strong>50 GB</strong> SSD</li>
+      </ul>
+      <a href="#" class="order-btn">Order Now</a>
+    </div>
+
+    <div class="pricing-card">
+      <p class="pricing-card-header text">colour</p>
+      <div class="price text"><sup>$</sup>100<span></span></div>
+      <ul>
+        <li><strong>30</strong> Websites</li>
+        <li><strong>150 GB</strong> SSD</li>
+      </ul>
+      <a href="#" class="order-btn">Order Now</a>
+    </div>
+
+    <div class="pricing-card">
+      <p class="pricing-card-header text">Extensions</p>
+      <div class="price text"><sup>$</sup>200<span></span></div>
+      <ul>
+        <li><strong>100</strong> Websites</li>
+        <li><strong>500 GB</strong> SSD</li>
+      </ul>
+      <a href="#" class="order-btn">Order Now</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="inner-footer">
+      <div class="contact-links">
+        <ul>
+          <li class="contact-items"><a href="#"></a></li>
+          <li class="contact-items"><a href="#"></a></li>
+          <li class="contact-items"><a href="#"></a></li>
+
+        </ul>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
