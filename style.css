@@ -497,6 +497,14 @@ input.set{
   transition: .4s linear;
 }
 
+.price-text{
+  color:rgb(220, 170, 196);
+}
+
+.price-text:after{
+  color: #fff;
+}
+
 .pricing-card:hover .pricing-card-header{
   box-shadow: 0 0 0 26em rgb(220, 170, 196);
 }
@@ -513,7 +521,7 @@ input.set{
   font-weight: 700;
 }
 
-.pricing-card:hover ,.pricing-card:hover .price{
+.pricing-card:hover ,.pricing-card:hover .price, .price-text{
   color: #fff;
 }
 
