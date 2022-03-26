@@ -497,22 +497,22 @@ input.set{
   transition: .4s linear;
 }
 
-.price-text{
-  color:rgb(220, 170, 196);
-}
-
-.price-text:after{
-  color: #fff;
-}
-
 .pricing-card:hover .pricing-card-header{
   box-shadow: 0 0 0 26em rgb(220, 170, 196);
+}
+
+.price-text{
+  padding-top: 40px;
+  font-size: 50px;
+  color: rgb(220, 170, 196);
+  margin: auto;
+  transition: .2s linear;
 }
 
 .price{
   font-size: 70px;
   color: rgb(220, 170, 196);
-  margin: 40px 0;
+  margin: 50px 0;
   transition: .2s linear;
 }
 
@@ -521,7 +521,7 @@ input.set{
   font-weight: 700;
 }
 
-.pricing-card:hover ,.pricing-card:hover .price, .price-text{
+.pricing-card:hover ,.pricing-card:hover .price,.price-text{
   color: #fff;
 }
 
@@ -534,7 +534,7 @@ input.set{
 .order-btn{
   display: inline-block;
   margin-bottom: 40px;
-  margin-top: 250px;
+  margin-top: 100px;
   border: 2px solid rgb(220, 170, 196);
   color: rgb(220, 170, 196);
   padding: 18px 40px;
@@ -574,6 +574,21 @@ input.set{
   padding: 10px;
   background-color: rgb(220, 170, 196);
   box-shadow: 5px 4px 5px rgba(0,0,0,0.3);
+}
+
+.contact-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.contact-text li{
+  width: 100%;
+  display: flex;
+  flex-direction: inline-row;
+  justify-content: center;
 }
 
 footer{

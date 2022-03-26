@@ -1,24 +1,22 @@
-Styed by Saoirse 
+## Styed by Saoirse 
 
- Styled by Saoirse is a site that helps the user view and book hair styling sessions. The site will target both existing and potential customers.  
-
-The site can show customers images of previous work, price lists and how to contact. 
+ Styled by Saoirse is a site that helps the user view and book hair styling sessions. The site will target both existing and potential customers and can show them images of previous work, price lists and how to contact. 
+ My aim  is to have a site that can make the business look profesional and help boost customer experience.
 
  
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/E01N/Project-1/blob/main/media/homepage.png?raw=true)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured at the top of the page, the full responsive navigation bar includes links to  Home, the About section, the Gallery section and the Contact section to allow for easy navigation to all aspects of the page.
+  - This section will allow the user to easily navigate to the section the desire across all devices. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page image__
 
