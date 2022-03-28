@@ -100,4 +100,4 @@ The live link can be found here - https://e01n.github.io/Project-1/
 
 ## Further Comments
 
-- I made a huge mistake by not labeling my commit changes. I had not taken into account how important these comments are and have learned a valuable lesson going forward to properly document changes made to my code as I progress through a project. In a way, I am glad that this happened as I was annoyed at myself for making this mistake but this is how I will learn and progress further in my career as a developer. 
+I made a huge mistake by not labeling my commit changes. I had not taken into account how important these comments are and have learned a valuable lesson going forward to properly document changes made to my code as I progress through a project. In a way, I am glad that this happened as I was annoyed at myself for making this mistake but this is how I will learn and progress further in my career as a developer. 
