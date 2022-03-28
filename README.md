@@ -68,7 +68,7 @@ I also found myself going back through a lot of our lessons to get some informat
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fe01n.github.io%2FProject-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
@@ -91,11 +91,12 @@ The live link can be found here - https://e01n.github.io/Project-1/
 - I took inspiration for the NavBar from a YouTube channel [Online-Tutorials](https://www.youtube.com/watch?v=kEt5DCHeyJo&list=LL&index=8&t=199s&ab_channel=OnlineTutorials)
 - The About Section was developed with help from [Computer Science](https://www.youtube.com/watch?v=pt26fbKaoqM&ab_channel=ComputerScience)
 - Instructions on how to create the image slider was taken from a YouTube channel [FrontEndDesign](https://www.youtube.com/watch?v=yirix3tA61Q&ab_channel=FrontEndDesign) with additional help from [SitePoint Community](https://www.sitepoint.com/community/t/trying-to-prevent-an-image-slider-from-stretching-page-horizontally/383856)
+- I took inspiration for the footer from [Code Opacity](https://www.youtube.com/watch?v=zdA3qZNH1vc&t=116s&ab_channel=CodeOpacity)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts I used are from [Google Fonts](https://fonts.google.com/)
 ### Media
 
-- The photos used on the home and sign up page are from 
+- The photos used on the home and sign up page are from Styled by Saoirse's gallery 
 - The images used for the gallery page were taken from Styled by Saoirse's gallery
 
 ## Further Comments
