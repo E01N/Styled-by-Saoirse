@@ -129,6 +129,42 @@ h3{
   font-weight: 500;
 }
 
+.contact{
+  background-color: rgba(242, 194, 219, 0);
+  float: none;
+  border-radius: 4px;
+  padding: 100px 20px 100px 20px;
+  margin: 20px;
+  
+}
+
+.inner-contact{
+  position: relative;
+  float: none;
+  width: 55%;
+  margin: auto;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: rgb(220, 170, 196);
+  box-shadow: 5px 4px 5px rgba(0,0,0,0.3);
+}
+
+.contact-text{
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9vw;
+  color: #fff;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.contact-text li{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .text{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -139,7 +175,6 @@ h3{
 
 .gallery-title{
   position: relative;
-  display: inside;
   float: none;
   width: 45%;
   margin: auto;
@@ -152,7 +187,6 @@ h3{
   background-color: rgb(220, 170, 196);
   box-shadow: 5px 4px 5px rgba(0,0,0,0.3);
 }
-
 
 @media screen and (max-width: 2400px) and (min-width: 600px){
 
@@ -304,6 +338,33 @@ h3{
 }
 
 @media (max-width: 600px){
+
+  .contact{
+    width: 80%;
+    float: none;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    background: none;
+    
+  }
+
+  .inner-contact{
+    width: 100%;
+  }
+
+  .inner-contact, li{
+    font-size: 15px;
+  }
+
+  .inner-contact, h2{
+    font-size: 40px;
+  }
+  
+  .contact-text{
+    text-align: center;
+    padding:20px;
+  }
 
   .logo{
     font-size: 33px;
@@ -559,42 +620,6 @@ input.set{
   }
 }
 
-.contact{
-  background-color: rgba(242, 194, 219, 0);
-  float: none;
-  border-radius: 4px;
-  padding: 100px 20px 100px 20px;
-  margin: 20px;
-  
-}
-
-.inner-contact{
-  position: relative;
-  display: inside;
-  float: none;
-  width: 55%;
-  margin: auto;
-  border-radius: 4px;
-  padding: 10px;
-  background-color: rgb(220, 170, 196);
-  box-shadow: 5px 4px 5px rgba(0,0,0,0.3);
-}
-
-.contact-text{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  color: #fff;
-  line-height: 40px;
-  text-align: justify;
-}
-
-.contact-text li{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 footer{
   position: relative;
   bottom: 0;
@@ -648,4 +673,3 @@ footer{
 .socials a:hover i{
   color: rgba(130, 64, 98, 0.8);
 }
-
