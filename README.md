@@ -16,66 +16,51 @@
   - Featured at the top of the page, the full responsive navigation bar includes links to  Home, the About section, the Gallery section and the Contact section to allow for easy navigation to all aspects of the page.
   - This section will allow the user to easily navigate to the section the desire across all devices. 
 
-![Nav Bar]()
+![Nav Bar](media/Nav-Bar.png)
 
-- __The landing page image__
+- __The About Section__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph with a floating About section to give the user some basic information about the owner. 
+  - This section introduces the user to Styled by Saoirse with an eye catching layout to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![About Section](media/About-section.png)
 
-- __Club Ethos Section__
+- __Gallery Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Gallery section will allow the user to see previous customers and get an idea of what to expect from Styled by Saoirse. 
+  - This should help the user to decide on which service they would like to purchase. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Gallery Secton](media/Gallery.png)
 
-- __Meetup Times section__
+- __Contact Section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see the best ways to contact the owner. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Contact Section](media/Contact.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites Styled by Saoirse. The links will open the home page to the relevent link to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](media/Footer.png)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- In the future I would introduce a section where the user can see an up to date calander on available times.
+- In the future I would introduce a functioning booking system where the user can book a time slot which would go directly to the owners calander.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- In testing for this project i inisially came across a lot of issues on reactive viewing where some aspects of the page didnt react as i would have liked. through out trail and error i eventually got the page to react as i would have liked in different view points. 
+I tried to focus on desktop and mobile view as i tought that these would be the most commenly used. 
+I spent a lot of time trying to get the image slider to look its best, I found it quite time consuming and had to rely hevily on online videos and fourms for help. 
+I also found myself going back through a lot of our lessons to get some infromation on how to center certin Divs and also on general layout of the page.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- I think the page looks best in desktop view and although mobile view works well it could look a lot better. If i had more time available to me i would spend it working out the kinks there. Overall I'm happy how the page turned out in terms of asteticts, but there's always room for improvment.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- Some of the more interesting bugs i came across working on the page came from adjusting for different viewpoints. When i had first incorperated the image slider it was a bit of a mess, the images would stack on top of each other, they would stretch and drag out the page and out of focus and sometimes just disapear. This was definetlly the biggest learning experience for me. Throught the testing of this I would ahve to go back through our online lessons, ask questions on online fourms, ask fellow students for advice and watch some YouTube videos with better information on hoe to propperly incorperate an image slider corretly. The image slider didn't turn out exactly how i would like, I know that it is a bit off center and could be a lot more clean looking.
 
 
 ### Validator Testing 
