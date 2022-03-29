@@ -72,6 +72,7 @@ Price Card             |  Price Card Hover
 - I would like to introduce a section where the user can see an up-to-date calendar on available times.
 - I would like to introduce a functioning booking system where the user can book a time slot that would go directly to the owner's calendar.
 - I would like to a live instagram feed so the user can see the latest word done by Styled by Saoirse.
+- I would like to introduce the option to purchase e-gift vouchers so that users can send the voucher to a friend or family member.
 
 ## Testing 
 
