@@ -13,7 +13,7 @@
 
 - __Navigation Bar__
 
-  - Featured at the top of the page, the full responsive navigation bar includes links to  the homepage, the Gallery page, the Prices page and the Contact section to allow for easy navigation to all aspects of the page.
+  - Featured at the top of the page, the full responsive navigation bar includes links to  the Homepage, the Gallery page, the Prices page and the Contact section to allow for easy navigation to all aspects of the page.
   - This section will allow the user to easily navigate to the section they desire across all devices. 
   - The navigation bar is situated at the top of all pages so the user can easily transition between sections and pages.
   - When clicked the user will be brought to the corresponding place. The gallery tab will bring the user to the gallry page with the same for the prices tab, but the cvontact tab will bring the user directly to Styled by Saoirse's Instagram page.
@@ -25,7 +25,7 @@
 
   - The About section is based on the homepage of the site and will be the first thing the user will interact with.
   - This section includes a photograph with a floating About section to give the user some basic information about the owner. 
-  - This section introduces the user to Styled by Saoirse with an eye-catching layout to grab their attention
+  - This section introduces the user to Styled by Saoirse with an eye-catching layout to grab the attention of the user.
   - In a screen size of 600 pixals or less the background image will disapear and center the About section for optimal viewing.
 
 ![About Section](media/About.png)
@@ -123,4 +123,4 @@ The live link can be found here - https://e01n.github.io/Project-1/
 
 ## Further Comments
 
-I made a huge mistake by not labeling my commit changes. I had not taken into account how important these comments are and have learned a valuable lesson going forward to properly document changes made to my code as I progress through a project. In a way I am glad that this happened as I was annoyed at myself for making this mistake but this is how I will learn and progress further in my career as a developer. 
+I made a grave error by not labeling my commit changes. I had not taken into account how essential these comments are to a project. However, I have learned a valuable lesson here, and going forward i will properly document any changes I make to my code in future projects. As it was too late to rectify this error, rather than dwell on the negative, I have decided to take this as a possitive learning oppertuinity that i will take with me as I continue grow as a developer.
