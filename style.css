@@ -11,7 +11,7 @@ html{
 }
 
 body{
-  background-color: rgba(242, 194, 219, 0.8);
+  background-color: rgba(255, 224, 240, 0.8);
   justify-content: center;
 }
 
@@ -208,8 +208,9 @@ h3{
   }
 
   .side-container{
-    position:relative;
+    position: relative;
     margin-top: 20px;
+    margin-bottom: 20px;
     max-width: 2000px;
     height: 60vh;
     align-items: center;
@@ -274,12 +275,12 @@ h3{
   }
 
   /*image position*/
-  #slider-span1:target ~ .image-slider {left: 50%;}
+  #slider-span1:target ~ .image-slider {left: 40%;}
   #slider-span2:target ~ .image-slider {left: 25%;}
   #slider-span3:target ~ .image-slider {left: 5%;}
-  #slider-span4:target ~ .image-slider {left: -5%;}
-  #slider-span5:target ~ .image-slider {left: -25%;}
-  #slider-span6:target ~ .image-slider {left: -35%;}
+  #slider-span4:target ~ .image-slider {left: 0%;}
+  #slider-span5:target ~ .image-slider {left: -20%;}
+  #slider-span6:target ~ .image-slider {left: -30%;}
 }
   
 
@@ -446,8 +447,7 @@ input.set{
 #slide4:checked ~ .mask .overflow { margin-left:-300%; }
 
 .slides{ 
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 20px;
   width: 90%; 
   position: relative; 
 }
@@ -460,44 +460,44 @@ input.set{
   }
 
 .slides .overflow{
-  width:400%; 
-  -webkit-transform:translateZ(0); 
-  -webkit-transition:all 0.5s ease-out; 
-  -moz-transition:all 0.5s ease-out; 
-  -o-transition:all 0.5s ease-out; 
-  transition:all 0.5s ease-out; 
+  width: 400%; 
+  -webkit-transform: translateZ(0); 
+  -webkit-transition: all 0.5s ease-out; 
+  -moz-transition: all 0.5s ease-out; 
+  -o-transition: all 0.5s ease-out; 
+  transition: all 0.5s ease-out; 
 }
 
 .slides .slide{
-  width:25%; 
-  height:500px; 
-  line-height:400px; 
-  float:left; 
+  width: 25%; 
+  height: 500px; 
+  line-height: 400px; 
+  float: left; 
 }
 
 #pic1{
-  background-image: url(https://i.imgur.com/fBYEYXb.png);
+  background-image: url(media/HairPic1.png);
   background-position: center center;
   background-attachment: fixed;
   
 }
 
 #pic2{
-  background-image: url(https://i.imgur.com/brTXHnI.png);
+  background-image: url(media/HairPic2.png);
   background-position: center center;
   background-attachment: fixed;
   
 }
 
 #pic3{
-  background-image: url(https://i.imgur.com/KpsKtMx.jpeg);
+  background-image: url(media/HairPic3.jpeg);
   background-position: center center;
   background-attachment: fixed;
   
 }
 
 #pic4{
-  background-image: url(https://i.imgur.com/nsr11Wr.jpeg);
+  background-image: url(media/HairPic4.jpeg);
   background-position: center center;
   background-attachment: fixed;
 }
