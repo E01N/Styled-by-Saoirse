@@ -1,10 +1,10 @@
 ## Stayed by Saoirse 
 
- Styled by Saoirse is a site that helps the user view and book hair styling sessions. The site will target both existing and potential customers and can show them images of previous work, price lists, and how to contact them. 
+ Styled by Saoirse is a site that helps the user view and book hair styling sessions. The site will target both existing and potential future customers and show them images of previous work, price lists, and how to contact the owner. 
  I aim to have a site that can make the business look professional and help boost customer experience.
 
  
-![Responsice Mockup](https://github.com/E01N/Project-1/blob/main/media/homepage.png?raw=true)
+![Responsive Mockup](media/Landing-Page.png)
 
 ## Features 
 
@@ -13,52 +13,73 @@
 
 - __Navigation Bar__
 
-  - Featured at the top of the page, the full responsive navigation bar includes links to  Home, the About section, the Gallery section, and the Contact section to allow for easy navigation to all aspects of the page.
+  - Featured at the top of the page, the full responsive navigation bar includes links to  the homepage, the Gallery page, the Prices page and the Contact section to allow for easy navigation to all aspects of the page.
   - This section will allow the user to easily navigate to the section they desire across all devices. 
+  - The navigation bar is situated at the top of all pages so the user can easily transition between sections and pages.
+  - When browsing in 600 pixals or less the Nav Bar changes to show a burger icon, and when clicked will show a drop down menu.
 
 ![Nav Bar](media/Nav-Bar.png)
 
 - __The About Section__
 
-  - The landing includes a photograph with a floating About section to give the user some basic information about the owner. 
+  - The About section is based on the homepage of the site and will be the first thing the user will interact with.
+  - This section includes a photograph with a floating About section to give the user some basic information about the owner. 
   - This section introduces the user to Styled by Saoirse with an eye-catching layout to grab their attention
+  - In a screen size of 600 pixals or less the background image will disapear and center the About section for optimal viewing.
 
-![About Section](media/About-section.png)
+![About Section](media/About.png)
 
-- __Gallery Section__
+- __Gallery Page__
 
-  - The Gallery section will allow the user to see previous customers and get an idea of what to expect from Styled by Saoirse. 
+  - I created an interactive gallery page with an image slider showing images of previous customers.
+  - The Gallery page will allow the user to see previous work to get an idea of what to expect from Styled by Saoirse. 
   - This should help the user to decide on which service they would like to purchase. 
+  - In a screen size of 600 pixals or less the image slider changes to be optimal for mobile users.
 
 ![Gallery Secton](media/Gallery.png)
 
+- __Prices Page__
+
+  - The Prices page displays a selection of services available with corrisponding prices.
+  - When the user hovers over each card an animation is activaded which changes the card colour.
+  - When the 'Book Now' button is clicked it will open a new tab to Styled by Saoirse's Instagram page where the user can then book a time.
+  - In a screen size of 600 pixals or less the prices cards move to be displayed vertically for optimized viewing on smaller screens.
+
+Price Card             |  Price Card Hover
+:-------------------------:|:-------------------------:
+![Prices Page](media/Prices.png)  |  ![Prices Page Hover](media/Prices-Hover.png)
+
 - __Contact Section__
 
+  - I wanted the contact section to be simple and straight forward so that the user can easily find the information that they are looking for.
   - This section will allow the user to see the best ways to contact the owner. 
+  - The contact section will shrink and grow in size depending on screen size.
 
 ![Contact Section](media/Contact.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites Styled by Saoirse. The links will open the home page to the relevant link to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is situated on the bottom of all three pages to give the user access to the social media tags.
+  - The footer section includes links to the relevant social media sites. The links will open a new tab to the relevant link to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](media/Footer.png)
 
 
 ### Features Left to Implement
 
-- In the future, I would introduce a section where the user can see an up-to-date calendar on available times.
-- In the future, I would introduce a functioning booking system where the user can book a time slot that would go directly to the owner's calendar.
+- I would like to introduce a section where the user can see an up-to-date calendar on available times.
+- I would like to introduce a functioning booking system where the user can book a time slot that would go directly to the owner's calendar.
+- I would like to a live instagram feed so the user can see the latest word done by Styled by Saoirse.
 
 ## Testing 
 
-- In testing for this project I initially came across a lot of issues on reactive viewing where some aspects of the page didn't react as I would have liked. Through trial and error, I eventually got the page to react as I would have liked in different viewpoints. 
+- In testing for this project I initially came across a lot of issues on reactive viewing where some aspects of the pages didn't react as I would have liked. Through trial and error, I eventually got the pages to react as I would have liked in different viewpoints. 
 I tried to focus on desktop and mobile views as I thought that these would be the most commonly used. 
 I spent a lot of time trying to get the image slider to look its best, I found it quite time-consuming and had to rely heavily on online videos and forums for help. 
-I also found myself going back through a lot of our lessons to get some information on how to center certain Divs and also on the general layout of the page.
+I also found myself going back through a lot of our lessons to get some information on how to center the slider and also on the general layout of the page.
 
-- I think the page looks best in desktop view and although mobile view works well it could look a lot better. If I had more time available to me I would spend it working out the kinks there. Overall I'm happy with how the page turned out in terms of aesthetics, but there's always room for improvement.
+- I think the site looks best in desktop view and although mobile view works well. Overall I'm happy with how the page turned out in terms of aesthetics, but there's always room for improvement.
 
 - Some of the more interesting bugs I came across working on the page came from adjusting for different viewpoints. When I had first incorporated the image slider it was a bit of a mess, the images would stack on top of each other, they would stretch and drag out the page and out of focus and sometimes just disappear. This was the biggest learning experience for me. Throughout the testing of this, I would have to go back through our online lessons, ask questions on online forums, ask fellow students for advice and watch some YouTube videos with better information on how to properly incorporate an image slider correctly. The image slider didn't turn out exactly how I would like, I know that it is a bit off-center and could be a lot more clean-looking.
 
@@ -72,7 +93,7 @@ I also found myself going back through a lot of our lessons to get some informat
 
 ### Unfixed Bugs
 
-- I'm aware of certain bugs in the page, such as the centering of the image slider. I would like it to be more centered but whenever I tried doing so I made it worse. I would also like the image slider to have an image selected when first opening the page.
+- I'm aware of that the centering of the image slider isn't exactly right, I would like it to be more centered. I would also like the image slider to have an image selected when first opening the page.
 
 ## Deployment
 
