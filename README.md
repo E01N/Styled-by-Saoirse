@@ -16,6 +16,7 @@
   - Featured at the top of the page, the full responsive navigation bar includes links to  the homepage, the Gallery page, the Prices page and the Contact section to allow for easy navigation to all aspects of the page.
   - This section will allow the user to easily navigate to the section they desire across all devices. 
   - The navigation bar is situated at the top of all pages so the user can easily transition between sections and pages.
+  - When clicked the user will be brought to the corresponding place. The gallery tab will bring the user to the gallry page with the same for the prices tab, but the cvontact tab will bring the user directly to Styled by Saoirse's Instagram page.
   - When browsing in 600 pixals or less the Nav Bar changes to show a burger icon, and when clicked will show a drop down menu.
 
 ![Nav Bar](media/Nav-Bar.png)
