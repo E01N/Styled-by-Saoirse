@@ -89,6 +89,11 @@ I also found myself going back through a lot of our lessons to get some informat
 - Some of the more interesting bugs I came across working on the page came from adjusting for different viewpoints. When I had first incorporated the image slider it was a bit of a mess, the images would stack on top of each other, they would stretch and drag out the page and out of focus and sometimes just disappear. This was the biggest learning experience for me. Throughout the testing of this, I would have to go back through our online lessons, ask questions on online forums, ask fellow students for advice and watch some YouTube videos with better information on how to properly incorporate an image slider correctly. The image slider didn't turn out exactly how I would like, I know that it is a bit off-center and could be a lot more clean-looking.
 
 
+### Accesibility Testing 
+
+- I used Lighthouse DevTools test to assess the pages accesibility and it scored an overall of 97
+![Lighthouse Test](assets/media/lighthouse.png)
+
 ### Validator Testing 
 
 - HTML
