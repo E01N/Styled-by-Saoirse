@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Open+Sans&display=swap');
 
+/*styles for all pages*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -101,8 +102,9 @@ h3{
   font-weight: 500;
 }
 
+/*about background image*/
 .about{
-  background: url(https://i.imgur.com/kqqWW2G.jpeg) no-repeat left;
+  background: url(media/About-background.jpg) no-repeat left;
   overflow: hidden;
   background-size: 55%;
   background-color: rgba(242, 194, 219, 0);
@@ -112,6 +114,7 @@ h3{
   
 }
 
+/*about card*/
 .inner-section{
   width: 55%;
   float: right;
@@ -188,6 +191,7 @@ h3{
   box-shadow: 5px 4px 5px rgba(0,0,0,0.3);
 }
 
+/*large screen size*/
 @media screen and (max-width: 2400px) and (min-width: 600px){
 
   h2{
@@ -283,7 +287,7 @@ h3{
   #slider-span6:target ~ .image-slider {left: -30%;}
 }
   
-
+/*medium screen size*/
 @media screen and (max-width:1000px){
   
   .about{
@@ -338,6 +342,7 @@ h3{
   }
 }
 
+/*small screen size*/
 @media (max-width: 600px){
 
   .contact{
@@ -441,6 +446,7 @@ input.set{
   display: none;
 }
 
+/*image slider*/
 #slide1:checked ~ .mask .overflow { margin-left:0; }
 #slide2:checked ~ .mask .overflow { margin-left:-100%; }
 #slide3:checked ~ .mask .overflow { margin-left:-200%; }
