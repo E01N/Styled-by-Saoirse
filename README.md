@@ -4,7 +4,7 @@
  I aim to have a site that can make the business look professional and help boost customer experience.
 
  
-![Responsive Mockup](media/Landing-Page.png)
+![Responsive Mockup](assets/media/Landing-Page.png)
 
 ## Features 
 
@@ -19,7 +19,7 @@
   - When clicked the user will be brought to the corresponding place. The gallery tab will bring the user to the gallry page with the same for the prices tab, but the cvontact tab will bring the user directly to Styled by Saoirse's Instagram page.
   - When browsing in 600 pixals or less the Nav Bar changes to show a burger icon, and when clicked will show a drop down menu.
 
-![Nav Bar](media/Nav-Bar.png)
+![Nav Bar](assets/media/Nav-Bar.png)
 
 - __The About Section__
 
@@ -28,7 +28,7 @@
   - This section introduces the user to Styled by Saoirse with an eye-catching layout to grab the attention of the user.
   - In a screen size of 600 pixals or less the background image will disapear and center the About section for optimal viewing.
 
-![About Section](media/About.png)
+![About Section](assets/media/About.png)
 
 - __Gallery Page__
 
@@ -37,7 +37,7 @@
   - This should help the user to decide on which service they would like to purchase. 
   - In a screen size of 600 pixals or less the image slider changes to be optimal for mobile users.
 
-![Gallery Secton](media/Gallery.png)
+![Gallery Secton](assets/media/Gallery.png)
 
 - __Prices Page__
 
@@ -48,7 +48,7 @@
 
 Price Card             |  Price Card Hover
 :-------------------------:|:-------------------------:
-![Prices Page](media/Prices.png)  |  ![Prices Page Hover](media/Prices-Hover.png)
+![Prices Page](assets/media/Prices.png)  |  ![Prices Page Hover](assets/media/Prices-Hover.png)
 
 - __Contact Section__
 
@@ -56,7 +56,7 @@ Price Card             |  Price Card Hover
   - This section will allow the user to see the best ways to contact the owner. 
   - The contact section will shrink and grow in size depending on screen size.
 
-![Contact Section](media/Contact.png)
+![Contact Section](assets/media/Contact.png)
 
 - __The Footer__ 
 
@@ -64,7 +64,7 @@ Price Card             |  Price Card Hover
   - The footer section includes links to the relevant social media sites. The links will open a new tab to the relevant link to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](media/Footer.png)
+![Footer](assets/media/Footer.png)
 
 
 ### Features Left to Implement
