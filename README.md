@@ -4,7 +4,10 @@
  I aim to have a site that can make the business look professional and help boost customer experience.
 
  
-![Responsive Mockup](assets/media/Landing-Page.png)
+![Responsive Mockup](assets/media/responsive-mockup.png)
+
+## [View the deployed website here!](https://e01n.github.io/Project-1/)
+---
 
 ## Features 
 
@@ -89,7 +92,7 @@ I also found myself going back through a lot of our lessons to get some informat
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fe01n.github.io%2FProject-1%2F)
+  - No errors and one warning were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fe01n.github.io%2FProject-1%2F)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fe01n.github.io%2FProject-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
