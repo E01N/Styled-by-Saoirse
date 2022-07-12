@@ -1,4 +1,4 @@
-## Stayed by Saoirse 
+## Styled by Saoirse 
 
  Styled by Saoirse is a site that helps the user view and book hair styling sessions. The site will target both existing and potential future customers and show them images of previous work, price lists, and how to contact the owner. 
  I aim to have a site that can make the business look professional and help boost customer experience.
