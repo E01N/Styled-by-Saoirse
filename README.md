@@ -6,7 +6,7 @@
  
 ![Responsive Mockup](assets/media/responsive-mockup.png)
 
-## [View the deployed website here!](https://e01n.github.io/Project-1/)
+## [View the deployed website here!](https://e01n.github.io/Styled-by-Saoirse/)
 ---
 
 ## Features 
